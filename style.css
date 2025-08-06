@@ -1,0 +1,123 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* primary color: #e56f52
+secondary color: #e59065 
+tertiary color: #fdfaee */
+
+body {
+    background-color: #fdfaee;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    ;
+}
+
+main {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 20px;
+}
+
+#heading {
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subheading {
+    padding: 10px;
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-resize {
+    max-width: 10%;
+    height: auto;
+}
+
+nav ul {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    list-style-type: none;
+    background-color: #f3d6c7;
+    overflow: hidden;
+    padding: 1em;
+}
+
+ul {
+    overflow: hidden;
+    padding: 1em;
+    padding-top: 0;
+}
+
+li {
+    display: inline;
+    /* padding-inline: 20px; */
+    /* border-radius: 4px; */
+}
+
+.about-list {
+    /* width: 100%;
+    height: auto;
+    text-align: center; */
+    margin: 20px;
+    /* list-style-type: none;
+    background-color: #f3d6c7; */
+    overflow: hidden;
+    padding: 1em;
+    padding-top: 0px;
+}
+
+.about-list li {
+    list-style-type: circle;
+    display: list-item;
+    text-align: justify;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 1.5;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    /* font-size: 1.3em; */
+    padding: 1em;
+}
+
+li a:hover {
+    background-color: #e56f52;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* use justify for horizontal align
+and align for vertical align */
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* color: #e56f52; */
+    height: auto;
+    border-radius: 10px;
+    width: 60%;
+    border-style: dotted;
+    border-color: #e56f52;
+    /* padding-inline: 20px; */
+    margin: 20px auto;
+}

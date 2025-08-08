@@ -86,7 +86,7 @@ li {
     line-height: 1.5;
 }
 
-li a {
+.no-deco, li a {
     text-decoration: none;
     color: black;
     /* font-size: 1.3em; */
@@ -96,6 +96,11 @@ li a {
 li a:hover {
     background-color: #e56f52;
     color: white;
+}
+
+.no-deco:hover {
+    /* background-color: #e56f52; */
+    text-decoration: wavy underline #e56f52;
 }
 
 .flex-container {
@@ -120,4 +125,18 @@ and align for vertical align */
     border-color: #e56f52;
     /* padding-inline: 20px; */
     margin: 20px auto;
+}
+
+#angel {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: #e56f52;
+    margin: 20px auto;
+}
+
+.caption {
+    color: #e56f52;
+    max-width: 60%;
 }
